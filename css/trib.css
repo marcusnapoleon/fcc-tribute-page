@@ -1,0 +1,162 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Poiret One', cursive;
+    font-size: 48px;
+    text-align: center;
+    background-color: #050B09;
+    color: white;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+    margin-bottom: -50px;
+
+}
+
+#img-div p {
+    margin-top: 10px;
+
+}
+/* Typography */
+
+h1 {
+  font-size: 1.5em;
+  margin-top: 40px;
+  margin-bottom: -75px;
+}
+
+h6{
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: .5em;
+}
+
+ul.list {
+    text-align: left;
+    list-style-type: none;
+    margin-left: 30px;
+    font-size: .4em;
+    padding: 0;
+    
+}
+ul.inner-list {
+    
+    list-style-type: none;
+    margin-left: 10px;
+    font-size: 1em;
+    padding: 0;
+    
+}
+
+.inner-list p {
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: #975;
+}
+
+
+.fter {
+    font-size: .7em;
+    background-color: #050B09;
+    padding-top: 40px;
+    padding: 20px;
+    text-decoration: none;
+    margin-top: 35px;
+}
+
+#img-caption {
+    margin-bottom: 40px;
+    color: white;
+    font-size: 0.5em;
+}
+
+.under-line {
+    font-size: .6em;
+    text-decoration: underline;
+    text-decoration-color: #975;
+}
+#tribute-info ul{
+    text-align: right;
+    margin-right: 30px;
+}
+
+#tribute-info2 {
+    border-left:  1.5px solid #975;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    
+    color: orange;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {.column {width: 100%;} 
+#tribute-info {
+    border-bottom: 1.5px solid #975;
+    
+    
+}
+    #tribute-info2 {
+    border-style: none;
+    
+}
+    
+h1 {
+  font-size: .8em;
+  margin-top: 40px;
+  margin-bottom: -50px;
+}
+
+h6{
+    margin-bottom: 40px;
+    font-size: .5em;
+}
+    
+    ul.list {
+    
+    list-style-type: none;
+    margin-left: 10px;
+    font-size: .4em;
+    padding: 0;
+    
+}
+    #tribute-info ul{
+    text-align: left;
+    margin-right: 30px;
+}
+    
+    }
